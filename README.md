@@ -2,7 +2,7 @@
 
 View it here: https://dimitrigol.github.io/First-Canvas-Project/
 
-![project image](Circle-Screenshot.png "Title")
+![project image](Circle-Screenshot.png "Demo")
 
 ## About the canvas:
 * There are a certain amount of circles

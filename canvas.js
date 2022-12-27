@@ -21,12 +21,19 @@ window.addEventListener('mousemove',
     }
 )
 
+window.addEventListener('resize', function()
+    {
+        canvas.width = window.innerWidth;
+        canvas.height = window.innerHeight;
+    }
+);
+
 var colorArray = [
     '#2F2F2F',
     '#00C2D1',
     '#CC5A71',
     '#F9E784',
-    '#00A6ED'
+    '#00A6ED'  
 ];
 
 function Circle(x, y, dx, dy, radius, color){

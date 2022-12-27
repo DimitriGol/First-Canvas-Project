@@ -8,4 +8,4 @@ View it here: https://dimitrigol.github.io/First-Canvas-Project/
 * There are a certain amount of circles
 * They bounce around the screen
 * The circles grow in size if the mouse hovers over them
-* The screen resizes, but the circles do not regenerate. Instead, the circles move over to the new empty space.
+* When the screen resizes, but the circles do not regenerate. Instead, the circles move over to the new empty space.

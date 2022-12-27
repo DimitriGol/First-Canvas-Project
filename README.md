@@ -1,4 +1,4 @@
-# First-Canvas-Project
+# Interactive Circles
 
 View it here: https://dimitrigol.github.io/First-Canvas-Project/
 

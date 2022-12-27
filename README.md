@@ -1,5 +1,7 @@
 # First-Canvas-Project
 
+View it here: https://dimitrigol.github.io/First-Canvas-Project/
+
 ![project image](Circle-Screenshot.png "Title")
 
 ## About the canvas:

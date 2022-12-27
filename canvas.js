@@ -12,7 +12,7 @@ var mouse = {
 
 var maxRadius = 40;
 var minRadius = 3;
-var numCircles = 500;
+var numCircles = 2000;
 
 window.addEventListener('mousemove', 
     function(event) {
@@ -29,10 +29,10 @@ window.addEventListener('resize', function()
 );
 
 var colorArray = [
-    '#2F2F2F',
-    '#00C2D1',
-    '#CC5A71',
-    '#F9E784',
+    '#FF220C',
+    '#26FFE6',
+    '#F7EC59',
+    '#FF66D8',
     '#00A6ED'  
 ];
 

@@ -1,5 +1,7 @@
 # First-Canvas-Project
 
+![project image](Circle-Screenshot.png "Title")
+
 ## About the canvas:
 * There are a certain amount of circles
 * They bounce around the screen

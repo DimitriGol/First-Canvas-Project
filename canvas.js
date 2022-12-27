@@ -12,7 +12,7 @@ var mouse = {
 
 var maxRadius = 40;
 var minRadius = 3;
-var numCircles = 2000;
+var numCircles = 5000;
 
 window.addEventListener('mousemove', 
     function(event) {
@@ -29,11 +29,11 @@ window.addEventListener('resize', function()
 );
 
 var colorArray = [
-    '#FF220C',
-    '#26FFE6',
-    '#F7EC59',
-    '#FF66D8',
-    '#00A6ED'  
+    '#FF4433', //red
+    '#26FFE6', //turqoise blue
+    '#F7EC59', //yellow
+    '#FF66D8', //pink
+    '#00A6ED'  //blue
 ];
 
 function Circle(x, y, dx, dy, radius, color){
@@ -48,7 +48,7 @@ function Circle(x, y, dx, dy, radius, color){
         c.beginPath();
         c.arc(this.x, this.y, this.radius, 0, Math.PI * 2, false);
         c.fillStyle = this.color;
-        c.fill()
+        c.fill();
     }
 
     this.update = function() {
@@ -66,7 +66,7 @@ function Circle(x, y, dx, dy, radius, color){
             && mouse.y - this.y < 50 && mouse.y - this.y > -50
             ){
             if (this.radius < maxRadius){
-                this.radius += 1;
+                this.radius += 3;
             }    
         }
         else if (this.radius > minRadius) {

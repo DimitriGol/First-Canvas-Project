@@ -83,7 +83,7 @@ for (var i = 0; i < numCircles; i++) {
     var y = Math.random() * (innerHeight - radius * 2) + radius;
     var dx = (Math.random() - 0.5);
     var dy = (Math.random() - 0.5);
-    var radius = 30;
+    var radius = minRadius;
     
     circleArray.push(new Circle(x, y, dx, dy, radius));
 }

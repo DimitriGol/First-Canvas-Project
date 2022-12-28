@@ -1,6 +1,6 @@
 # Interactive Circles
 
-View it here: https://dimitrigol.github.io/First-Canvas-Project/
+View it here: https://dimitrigol.github.io/Interactive-Circles/
 
 ![project image](Circle-Screenshot.png "Demo")
 
